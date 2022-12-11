@@ -4,6 +4,8 @@
   border: 2px solid #151c26;
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
+  -webkit-box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 0 0 2px #ffffff, 0.5em 0.5em 1em rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0em 0em rgba(0, 0, 0, 0.1), 0 0 0 2px #ffffff, 0.5em 0.5em 1em rgba(0, 0, 0, 0.3);
 }
 a {
   text-decoration: none;
@@ -239,4 +241,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.arrow {
+  color: #551a8b;
 }
