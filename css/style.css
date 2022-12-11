@@ -1,0 +1,242 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid #151c26;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.main_greeting_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #151c26;
+  padding: 0 10%;
+}
+.rectangle {
+  background-color: #30343f;
+  display: block;
+  height: 3vh;
+  width: 27vw;
+}
+.greeting_block {
+  display: grid;
+  align-self: center;
+  grid-template-columns: 2fr 4fr;
+  gap: 8%;
+}
+.greeting_block .greeting_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.greeting_block .greeting_image .image {
+  height: 100%;
+  width: 27vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.greeting_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 600;
+  -webkit-transform: translateY(-17%);
+          transform: translateY(-17%);
+}
+.main_info .name {
+  font-size: 2.25vw;
+  color: #ffffff;
+}
+.main_info .profession {
+  background-color: #30343f;
+  text-align: center;
+  width: 37vw;
+  font-size: 1vw;
+  color: #9b9ea5;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+.data {
+  display: grid;
+  font-size: 1.4vw;
+  grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transform: translateY(9%);
+          transform: translateY(9%);
+}
+.data .data_info1 {
+  color: #ffffff;
+}
+.data .data_info2 {
+  color: #9b9ea5;
+}
+.data .address {
+  padding-left: 13%;
+}
+.data .phone,
+.data .address,
+.data .email {
+  line-height: 1vh;
+}
+.main_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10%;
+}
+.main_block1,
+.main_block2 {
+  display: grid;
+  gap: 1em;
+  color: #151c26;
+}
+.main_block1 {
+  background-color: #d9d9d9;
+  padding: 0 6.8vw;
+  padding-bottom: 2%;
+}
+.main_block2 {
+  padding-left: 5.2vw;
+  padding-right: 6%;
+}
+.info_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -3.2vh;
+  gap: 0.8em;
+}
+h3 {
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+.text_list {
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 3.2vw;
+}
+.circle_gr,
+.circle_bl {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 50px;
+}
+.circle_bl {
+  color: #151c26;
+  background-color: #151c26;
+}
+.circle_gr {
+  color: #9b9ea5;
+  background-color: #9b9ea5;
+}
+.circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0.3em;
+  margin-top: 2vw;
+}
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 4vh;
+}
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.symb {
+  height: 3vw;
+}
+.text,
+.inner {
+  font-weight: 600;
+  font-size: 1.17vw;
+}
+.info {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 0.5em;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 0.7em;
+}
+p#lamoda1,
+p#notes1,
+p#lamoda2,
+p#notes2,
+p#api2,
+p#api1,
+p#land1,
+p#land2 {
+  cursor: pointer;
+}
+.lamoda_img {
+  width: 40vw;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.inner {
+  padding-left: 2em;
+}
+.text_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
