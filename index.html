@@ -17,7 +17,7 @@
         <div class="rectangle"></div>
         <div class="greeting_block">
           <div class="greeting_image">
-            <img class="image" src="./img/me.jpg" alt="my photo" />
+            <img class="image" src="./media/img/me.jpg" alt="my photo" />
           </div>
 
           <div class="greeting_info">
@@ -31,15 +31,9 @@
             </div>
 
             <div class="data">
-              <div class="phone">
-                <p class="data_info1">Phone:</p>
-                <a href="tel:+375291159573"
-                  ><p class="data_info2">(29) 115-95-73</p></a
-                >
-              </div>
               <div class="address">
                 <p class="data_info1">Address:</p>
-                <p class="data_info2">Minsk, st. Оktyabrskaya</p>
+                <p class="data_info2">Belarus, Minsk</p>
               </div>
               <div class="email">
                 <p class="data_info1">Email:</p>
@@ -62,7 +56,6 @@
               <div class="order">
                 <p class="text_list">
                   React<br />
-                  CSS<br />
                   Figma<br />
                   JavaScript<br />
                   PHP
@@ -72,11 +65,6 @@
                 <div class="circles">
                   <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
-                  <div class="circle_gr"></div>
-                  <div class="circle_gr"></div>
-                </div>
-                <div class="circles">
-                  <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
                   <div class="circle_gr"></div>
@@ -85,16 +73,19 @@
                   <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
+                  <div class="circle_bl"></div>
                   <div class="circle_gr"></div>
                 </div>
                 <div class="circles">
                   <div class="circle_bl"></div>
                   <div class="circle_bl"></div>
-                  <div class="circle_gr"></div>
+                  <div class="circle_bl"></div>
+                  <div class="circle_bl"></div>
                   <div class="circle_gr"></div>
                 </div>
                 <div class="circles">
                   <div class="circle_bl"></div>
+                  <div class="circle_gr"></div>
                   <div class="circle_gr"></div>
                   <div class="circle_gr"></div>
                   <div class="circle_gr"></div>
@@ -108,11 +99,11 @@
 
             <div class="lang_info">
               <p class="text_list">
-                &#9679;Russian<br />
+                Russian<br />
 
-                &#9679;English(B2)<br />
+                English(B2)<br />
 
-                &#9679;Belarusian
+                Belarusian
               </p>
             </div>
           </div>
@@ -121,12 +112,12 @@
             <h3 class="hobbies">Hobbies</h3>
             <div class="hob_info">
               <p class="text_list">
-                &#9679;Sport<br />
+                Sport<br />
 
-                &#9679;Guitar<br />
+                Guitar<br />
 
-                &#9679;Writing<br />
-                &#9679;Tourism
+                Writing<br />
+                Tourism
               </p>
             </div>
           </div>
@@ -134,17 +125,17 @@
           <div class="settings">
             <div>
               <a href="https://www.instagram.com/asya_will_/" target="_blank"
-                ><img src="./img/inst.png" alt="inst" class="symb"
+                ><img src="./media/svg/inst.svg" alt="inst" class="symb"
               /></a>
             </div>
             <div>
               <a href="https://github.com/Aseliyaa" target="_blank"
-                ><img src="./img/github.png" alt="GitHub" class="symb"
+                ><img src="./media/svg/git.svg" alt="GitHub" class="symb"
               /></a>
             </div>
             <div>
               <a href="https://t.me/Aaseliyaaa" target="_blank"
-                ><img src="./img/telegram.png" alt="telegram" class="symb"
+                ><img src="./media/svg/telegram.svg" alt="telegram" class="symb"
               /></a>
             </div>
           </div>
@@ -164,6 +155,22 @@
           </div>
 
           <div class="sec_block">
+            <h3 class="exp">Experience</h3>
+            <div class="info">
+              <div class="time"><p class="text">2021 - present time</p></div>
+              <div class="exp_text">
+                <p class="text">
+                  While studying at the Belarusian State University, I learned
+                  to work in a team, work with various kinds of information, and
+                  learned to take my work responsibly. To this day, I continue
+                  to develop in the field of IT and improve my skills.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="third_block">
             <h3 class="edu">Education</h3>
             <div class="info">
               <div class="time"><p class="text">2021 - present time</p></div>
@@ -179,27 +186,14 @@
             </div>
           </div>
 
-          <div class="third_block">
-            <h3 class="exp">Experience</h3>
-            <div class="info">
-              <div class="time"><p class="text">2021 - present time</p></div>
-              <div class="exp_text">
-                <p class="text">
-                  While studying at the Belarusian State University, I learned
-                  to work in a team, work with various kinds of information, and
-                  learned to take my work responsibly. To this day, I continue
-                  to develop in the field of IT and improve my skills.
-                </p>
-              </div>
-            </div>
-          </div>
-
+          
           <div class="last_block">
             <h3 class="proj">My projects</h3>
             <div class="projects">
               <div class="first_proj">
                 <p class="text" id="lamoda1" onclick="lamoda1()">
-                  &#9679;Lamoda app <span class="arrow">&#11167;</span>
+                  Lamoda app <span >
+                    <img src="./media/svg/arr.svg" class="arrow" alt="open"/> </span>
                 </p>
                 <p
                   class="text"
@@ -208,11 +202,13 @@
                   style="display: none"
                   onclick="lamoda2()"
                 >
-                  &#9679;Lamoda app <span class="arrow">&#11165;</span>
+                 Lamoda app <span >
+                    <img src="./media/svg/arr.svg" class="arrow_top" alt="close"/> </span>
                 </p>
 
                 <p class="text" id="notes1" onclick="notes1()">
-                  &#9679;Note taking app <span class="arrow">&#11167;</span>
+                  Note taking app <span >
+                    <img src="./media/svg/arr.svg" class="arrow" alt="open"/> </span>
                 </p>
                 <p
                   class="text"
@@ -221,13 +217,15 @@
                   style="display: none"
                   onclick="notes2()"
                 >
-                  &#9679;Note taking app <span class="arrow">&#11165;</span>
+                  Note taking app <span >
+                    <img src="./media/svg/arr.svg" class="arrow_top" alt="close"/> </span>
                 </p>
               </div>
 
               <div class="sec_proj">
                 <p class="text" id="api1" onclick="api1()">
-                  &#9679;API & SPA <span class="arrow">&#11167;</span>
+                  API & SPA <span >
+                    <img src="./media/svg/arr.svg" class="arrow" alt="open"/> </span>
                 </p>
 
                 <p
@@ -237,11 +235,13 @@
                   style="display: none"
                   onclick="api2()"
                 >
-                  &#9679;API & SPA <span class="arrow">&#11165;</span>
+                  API & SPA <span >
+                    <img src="./media/svg/arr.svg" class="arrow_top" alt="close"/> </span>
                 </p>
 
                 <p class="text" id="land1" onclick="land1()">
-                  &#9679;Landing page <span class="arrow">&#11167;</span>
+                  Landing page <span >
+                    <img src="./media/svg/arr.svg" class="arrow" alt="open"/> </span>
                 </p>
 
                 <p
@@ -251,7 +251,8 @@
                   style="display: none"
                   onclick="land2()"
                 >
-                  &#9679;Landing page <span class="arrow">&#11165;</span>
+                  Landing page <span >
+                    <img src="./media/svg/arr.svg" class="arrow_top" alt="close"/> </span>
                 </p>
               </div>
             </div>
@@ -259,10 +260,10 @@
             <div id="lamoda" style="display: none">
               <h3>Lamoda app</h3>
               <div class="img">
-                <a href="img/lamoda.png">
+                <a href="./media/img/lamoda.png">
                   <img
                     class="lamoda_img"
-                    src="./img/lamoda.png"
+                    src="./media/img/lamoda.png"
                     alt="project"
                   />
                 </a>
@@ -309,8 +310,8 @@
             <div id="notes" style="display: none">
               <h3>Note taking app</h3>
               <div class="img">
-                <a href="img/notes.gif">
-                  <img class="lamoda_img" src="img/notes.gif" alt="project" />
+                <a href="./media/gif/notes.gif">
+                  <img class="lamoda_img" src="./media/gif/notes.gif" alt="project" />
                 </a>
               </div>
 
@@ -348,8 +349,8 @@
             <div id="api" style="display: none">
               <h3>API & SPA</h3>
               <div class="img">
-                <a href="img/api.gif">
-                  <img class="lamoda_img" src="img/api.gif" alt="project" />
+                <a href="./media/gif/api.gif">
+                  <img class="lamoda_img" src="./media/gif/api.gif" alt="project" />
                 </a>
               </div>
 
@@ -390,8 +391,8 @@
             <div id="land" style="display: none">
               <h3>Landing page</h3>
               <div class="img">
-                <a href="img/landing.gif">
-                  <img class="lamoda_img" src="img/landing.gif" alt="project" />
+                <a href="./media/gif/landing.gif">
+                  <img class="lamoda_img" src="./media/gif/landing.gif" alt="project" />
                 </a>
               </div>
 
